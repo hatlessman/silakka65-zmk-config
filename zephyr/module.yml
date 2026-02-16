@@ -1,3 +1,4 @@
+name: zmk-keyboard-silakka65
 build:
   settings:
     board_root: .
