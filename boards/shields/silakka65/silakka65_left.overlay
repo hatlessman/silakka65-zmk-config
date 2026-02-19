@@ -27,6 +27,10 @@ kscan0: kscan0 {
     };
 };
 
+&uicr {
+    nfct-pins-as-gpios;
+};
+
 &physical_layout_silakka65 {
     kscan = <&kscan0>;
 };
